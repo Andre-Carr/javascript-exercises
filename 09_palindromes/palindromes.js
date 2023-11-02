@@ -14,7 +14,6 @@ const palindromes = function (phrase) {
          firstHalf = noPunct.slice(0, noPunct.length / 2).join('');
          lastHalf = noPunct.slice(noPunct.length / 2).reverse().join('');
     }
-    console.log(`****\n${noPunct.length}\n${firstHalf} \n${lastHalf}\n****\n`)
     return firstHalf === lastHalf;
 };
 
